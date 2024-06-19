@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Designs</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D2D2D2;
+            background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+        
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(images/bg.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="banner">
+        <div class="slider" style="--quantity: 18">
+            <div class="item" style="--position: 1"><img src="images/bienvenue.jpg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="images/Annonce DSSC 2.jpg" alt=""></div>
+            <div class="item" style="--position: 3"><img src="images/notre premier maillot.png" alt=""></div>
+            <div class="item" style="--position: 4"><img src="images/notre maillot des staffs.png" alt=""></div>
+            <div class="item" style="--position: 5"><img src="images/notre logo.png" alt=""></div>
+            <div class="item" style="--position: 6"><img src="images/nos fanions.jpg" alt=""></div>
+            <div class="item" style="--position: 7"><img src="images/Staff modèle DSSC.jpg" alt=""></div>
+            <div class="item" style="--position: 8"><img src="images/modèle joueurs.jpg" alt=""></div>
+            <div class="item" style="--position: 9"><img src="images/notre president.png" alt=""></div>
+            <div class="item" style="--position: 10"><img src="images/DSSC.jpg" alt=""></div>
+            <div class="item" style="--position: 11"><img src="images/banner 1.jpg" alt=""></div>
+            <div class="item" style="--position: 12"><img src="images/banner 2.jpg" alt=""></div>
+            <div class="item" style="--position: 13"><img src="images/banner 3 - taha - Enfants.jpg" alt=""></div>
+            <div class="item" style="--position: 15"><img src="images/écran d'acceuil D.S.S.C téléphone Samsung Galaxy J7 Pro.jpg" alt=""></div>
+            <div class="item" style="--position: 16"><img src="images/écran de vérouillage D.S.S.C samsung galaxy J7 Pro.jpg" alt=""></div>
+            <div class="item" style="--position: 17"><img src="images/nos categories.png" alt=""></div>
+            <div class="item" style="--position: 18"><img src="images/notre objectif.png" alt=""></div>
+        </div>
+        <div class="content">
+            <h1 data-content="CSS ONLY">
+                AYOUB FARSI
+            </h1>
+            <div class="author">
+                <h2>AYOUB FARSI</h2>
+                <p><b>FOOTBALL DESIGNS</b></p>
+                <p>
+                 WELCOME TO MY FOOTBALL DESIGNS GALLERY !
+                </p>
+            </div>
+            <div class="model"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
